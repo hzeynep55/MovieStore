@@ -18,6 +18,7 @@ namespace MovieStore.Service.Mapping
             CreateMap<Movie, MovieDto>().ReverseMap();
             CreateMap<Order, OrderDto>().ReverseMap();
             CreateMap<Customer, CustomerDto>().ReverseMap();
+            CreateMap<Customer, CustomerWithOrdersDto>();
 
         }
     }
